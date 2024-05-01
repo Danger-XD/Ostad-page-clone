@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.fas-small{
+    font-size: 12px !important;
+}
+.pfs-small{
+  font-size: 14px;
+}
+.in-small::placeholder{
+  font-size: 12px;
+  font-weight: 700;
+}
+.search-bar input{
+  width: 160px;
+}
+.outline-btn button:hover{
+border-style: none !important;
+}
